@@ -32,7 +32,7 @@ public class Login extends JFrame implements ActionListener {
         loginButton.addActionListener(this);
         add(new JLabel()); // Empty cell for alignment
         add(loginButton);
-
+        System.out.println("Hello");
         setVisible(true);
     }
 
